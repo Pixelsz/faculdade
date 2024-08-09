@@ -4,7 +4,7 @@ int main()
 {
     int qtd = 25;
     float preco_unidade = 10.99;
-    int preco_total = qtd * preco_unidade;
+    float preco_total = qtd * preco_unidade;
     char moeda[] = "R$";
 
     printf("Número de itens: %d\n", qtd);
